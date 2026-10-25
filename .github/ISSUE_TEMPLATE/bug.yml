@@ -1,0 +1,10 @@
+name: Bug report
+description: Report a reproducible problem
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproducer
+      description: Include version, command, OS, expected and actual output. Use synthetic data.
+    validations:
+      required: true
